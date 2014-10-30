@@ -17,9 +17,20 @@ module.exports =
   _: select
   select: select
 
+  color: rule 'color'
   backgroundColor: rule 'backgroundColor'
   width: rule 'width'
   height: rule 'height'
+  margin: rule 'margin'
+  marginLeft: rule 'marginLeft'
+  marginTop: rule 'marginTop'
+  marginRight: rule 'marginRight'
+  marginBottom: rule 'marginBottom'
+  padding: rule 'padding'
+  paddingLeft: rule 'paddingLeft'
+  paddingTop: rule 'paddingTop'
+  paddingRight: rule 'paddingRight'
+  paddingBottom: rule 'paddingBottom'
 
   pt: unit 'pt'
   pct: unit 'pct', '%'

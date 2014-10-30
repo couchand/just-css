@@ -16,12 +16,7 @@ class Rule
     attrs = unless @hasAttributes()
       ''
     else
-      strs = for attr in @attributes
-        if "#{attr}" is attr
-          "'#{attr}'"
-        else
-          attr.toString()
-
+      strs = (attr.toString() for attr in @attributes)
       strs.join ' '
 
     "#{@label}: #{attrs};"

@@ -28,7 +28,7 @@ describe "a simple stylesheet", ->
       .should
       .equal  """
               body {
-                  background-color: 'antiquewhite';
+                  background-color: antiquewhite;
               }
               h1, h2, h3 {
                   height: 5pt;
