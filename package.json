@@ -1,0 +1,32 @@
+{
+  "name": "just-css",
+  "version": "0.0.1",
+  "description": "a simple css validator and compiler",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/couchand/just-css"
+  },
+  "keywords": [
+    "css",
+    "validate",
+    "compile"
+  ],
+  "author": "Andrew Couch <just-css@andrewcou.ch>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/couchand/just-css/issues"
+  },
+  "homepage": "https://github.com/couchand/just-css",
+  "devDependencies": {
+    "chai": "^1.9.2",
+    "mocha": "^2.0.1",
+    "sinon": "^1.11.1"
+  }
+}
